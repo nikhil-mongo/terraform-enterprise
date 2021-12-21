@@ -19,16 +19,16 @@ variable "acc_short_alias" {
 # variable vpce_id {}
 # variable key_arn {}
 variable access_key{
-    default="AKIATBE2HRQUAAT4KN5W"
+    
 }
 variable secret_key{
-    default="xs+zV/rXbnn/mrrUeJ7bXBcMmmRceFZDjtSkxfZv"
+    
 }
 variable mongo_public_key {
-    default="jotrgvhk"
+    
 }
 variable mongo_private_key {
-    default="cf02440c-a432-4d57-96a6-fc2c8fd01ae8"
+    
 }
 # variable using_aws_openshift {}
 #variable acc_id_vault {}
