@@ -10,9 +10,9 @@ variable "str_application" {
 variable "mongodb_org_id" {
   default = "5c98a80fc56c98ef210b8633"
 }
-variable "map_maint_window" {
-  type = map(any)
-}
+#variable "map_maint_window" {
+#  type = map(any)
+#}
 variable "provider_name" {
   default = "AWS"
 }
