@@ -33,11 +33,11 @@ resource "mongodbatlas_project_ip_access_list" "progressive_2" {
 # }
 
 # Sets Cluster Maintenance Window
-resource "mongodbatlas_maintenance_window" "maintWindow" {
+/*resource "mongodbatlas_maintenance_window" "maintWindow" {
   project_id  = mongodbatlas_project.mongo_project.id
   day_of_week = var.map_maint_window.day_of_week /// App needs to name their var day_of_week?
   hour_of_day = var.map_maint_window.hour_of_day
-}
+}*/
 
 ####
 # AWS VPC Endpoint
