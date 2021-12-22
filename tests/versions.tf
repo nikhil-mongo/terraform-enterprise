@@ -10,4 +10,11 @@ terraform {
     #   version = "~>1.0"
     }
   }
+  terraform {
+  cloud {
+    organization = "terraform-atlas"
+    workspaces {
+      name = "terraform-enterprise"
+    }
+  }
 }
